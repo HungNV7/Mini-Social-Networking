@@ -1,0 +1,223 @@
+16/Sep/2020 15:55:10,189- AccountDAO: 11111111111111111111
+16/Sep/2020 15:55:10,190- RegisterController: Hello World
+16/Sep/2020 15:57:59,276- AccountDAO: 11111111111111111111
+16/Sep/2020 15:57:59,276- RegisterController: Hello World
+16/Sep/2020 17:20:06,730- AccountDAO: 11111111111111111111
+16/Sep/2020 17:20:06,731- RegisterController: Hello World
+16/Sep/2020 17:25:20,993- INFO  AccountDAO: 11111111111111111111
+16/Sep/2020 17:25:20,994- INFO  RegisterController: Hello World
+16/Sep/2020 19:59:04,922- INFO  AccountDAO: 11111111111111111111
+16/Sep/2020 19:59:04,924- INFO  RegisterController: Hello World
+16/Sep/2020 21:20:52,525- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+16/Sep/2020 21:21:19,614- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+16/Sep/2020 21:23:43,090- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+16/Sep/2020 21:24:57,602- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+16/Sep/2020 21:25:45,309- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+16/Sep/2020 21:26:52,548- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+17/Sep/2020 21:06:33,147- ERROR SearchController: Error in SearchController: java.lang.NumberFormatException: For input string: ""
+17/Sep/2020 21:08:29,508- ERROR SearchController: Error in SearchController: java.lang.NumberFormatException: For input string: ""
+17/Sep/2020 21:10:36,930- ERROR SearchController: Error in SearchController: java.lang.NumberFormatException: For input string: ""
+17/Sep/2020 21:12:11,529- ERROR SearchController: Error in SearchController: java.lang.NumberFormatException: For input string: ""
+18/Sep/2020 17:00:32,359- ERROR ArticleDAO: Error in ArticleDAO-getListArticle: com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 1.
+21/Sep/2020 15:09:57,877- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:14:52,350- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:20:17,138- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:22:16,341- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:23:29,319- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:25:44,490- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:26:32,237- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:27:20,057- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:29:11,181- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:32:54,882- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:40:15,987- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:41:39,456- ERROR AuthenFilter: Error in AuthenFilter: java.lang.NullPointerException
+21/Sep/2020 15:52:20,961- ERROR MainController: Error in MainController: java.lang.NullPointerException
+21/Sep/2020 15:52:30,562- ERROR MainController: Error in MainController: java.lang.NullPointerException
+21/Sep/2020 15:53:10,037- ERROR MainController: Error in MainController: java.lang.NullPointerException
+21/Sep/2020 15:53:14,861- ERROR MainController: Error in MainController: java.lang.NullPointerException
+21/Sep/2020 16:29:11,399- ERROR MainController: Error in MainController: java.lang.NullPointerException
+21/Sep/2020 17:23:10,561- ERROR ArticleDAO: Error in ArticleDAO-addArticle: com.microsoft.sqlserver.jdbc.SQLServerException: The statement did not return a result set.
+22/Sep/2020 16:45:32,932- ERROR CommentDAO: Error in CommentDAO-addComment: com.microsoft.sqlserver.jdbc.SQLServerException: Must declare the scalar variable "@P4@P5".
+22/Sep/2020 16:47:24,270- ERROR CommentDAO: Error in CommentDAO-addComment: com.microsoft.sqlserver.jdbc.SQLServerException: Must declare the scalar variable "@P4@P5".
+22/Sep/2020 16:48:48,523- ERROR CommentDAO: Error in CommentDAO-addComment: com.microsoft.sqlserver.jdbc.SQLServerException: Must declare the scalar variable "@P4@P5".
+23/Sep/2020 15:23:47,679- ERROR EmotionController: Error in EmotionController: java.lang.ClassCastException: sample.dtos.EmotionDTO cannot be cast to java.lang.String
+23/Sep/2020 15:25:02,240- ERROR EmotionDAO: Error in EmotionDAO-insertEmotion: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_Emotion'. Cannot insert duplicate key in object 'dbo.Emotion'. The duplicate key value is (319092020231745).
+23/Sep/2020 15:29:57,458- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+23/Sep/2020 19:38:44,607- ERROR ArticleDAO: Error in ArticleDAO-deleteArticle: com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "FK__Emotion__article__6B24EA82". The conflict occurred in database "Mini Social Network", table "dbo.Emotion", column 'articleID'.
+25/Sep/2020 10:53:03,281- ERROR ArticleDAO: Error in ArticleDAO-addArticle: com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Article__status__01142BA1". The conflict occurred in database "Mini Social Network", table "dbo.Status", column 'statusID'.
+28/Sep/2020 11:14:47,429- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161:                                     </div>
+162:                                     <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                         <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                         </c:if>
+165:                                     </c:forEach>
+
+
+Stacktrace:
+28/Sep/2020 11:14:48,082- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161:                                     </div>
+162:                                     <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                         <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                         </c:if>
+165:                                     </c:forEach>
+
+
+Stacktrace:
+28/Sep/2020 11:14:48,748- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161:                                     </div>
+162:                                     <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                         <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                         </c:if>
+165:                                     </c:forEach>
+
+
+Stacktrace:
+28/Sep/2020 11:15:13,148- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161:                                     </div>
+162:                                     <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                         <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                         </c:if>
+165:                                     </c:forEach>
+
+
+Stacktrace:
+28/Sep/2020 11:15:46,914- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161: 
+162:                                         <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                             <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165:                                     </div>
+
+
+Stacktrace:
+28/Sep/2020 11:15:47,473- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161: 
+162:                                         <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                             <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165:                                     </div>
+
+
+Stacktrace:
+28/Sep/2020 11:15:47,710- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 162
+
+159:                                             <p>${comment.detail}</p>
+160:                                         </div>
+161: 
+162:                                         <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                             <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165:                                     </div>
+
+
+Stacktrace:
+28/Sep/2020 11:39:23,987- ERROR CommentDAO: Error in CommentDAO-addComment: com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Comment__email__1BC821DD". The conflict occurred in database "Mini Social Network", table "dbo.Account", column 'email'.
+28/Sep/2020 11:40:35,652- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 163
+
+160:                                         </div>
+161: 
+162:                                         <c:if test="${comment.email == sessionScope.ACCOUNT.email}">
+163:                                             <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165:                                     </div>
+166: 
+
+
+Stacktrace:
+28/Sep/2020 11:42:35,995- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 166
+
+163:                                             <a data-toggle="modal" data-target="#popup${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165: 
+166:                                         <div class="modal fade" id="popup${comment.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+167:                                             <div class="modal-dialog">
+168:                                                 <div class="modal-content">
+169:                                                     <div class="modal-header">
+
+
+Stacktrace:
+28/Sep/2020 11:45:29,985- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 166
+
+163:                                             <a data-toggle="modal" data-target="#popupCmt${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if>
+165: 
+166:                                         <div class="modal fade" id="popupCmt${comment.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+167:                                             <div class="modal-dialog">
+168:                                                 <div class="modal-content">
+169:                                                     <div class="modal-header">
+
+
+Stacktrace:
+28/Sep/2020 15:25:03,120- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /detail.jsp at line 166
+
+163:                                             <a data-toggle="modal" data-target="#popupCmt${comment.id}" class="image-trash"><img src="Image/trash-3x.png" width="20px"></a>
+164:                                             </c:if> 
+165:                                     </div>
+166:                                     <div class="modal fade" id="popupCmt${comment.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+167:                                         <div class="modal-dialog">
+168:                                             <div class="modal-content">
+169:                                                 <div class="modal-header">
+
+
+Stacktrace:
+28/Sep/2020 20:12:38,523- ERROR AccountDAO: Error in AccountDAO-addAccount: com.microsoft.sqlserver.jdbc.SQLServerException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Account__status__6754599E". The conflict occurred in database "Mini Social Network", table "dbo.Status", column 'statusID'.
+29/Sep/2020 15:56:11,931- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+29/Sep/2020 16:03:39,299- ERROR NotificationDAO: Error in NotificationDAO-updateNotification: com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'AND'.
+29/Sep/2020 16:03:55,606- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+29/Sep/2020 16:08:24,922- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+29/Sep/2020 16:17:53,934- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+29/Sep/2020 19:38:46,733- ERROR DetailController: Error in DetailController: java.lang.NullPointerException
+29/Sep/2020 19:41:39,503- ERROR DetailController: Error in DetailController: java.lang.NullPointerException
+29/Sep/2020 19:43:27,269- ERROR DetailController: Error in DetailController: java.lang.NullPointerException
+29/Sep/2020 20:37:10,381- ERROR NotificationDAO: Error in NotificationDAO-getListNotification: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'image'.
+30/Sep/2020 11:13:59,743- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+30/Sep/2020 11:15:26,197- ERROR EmotionController: Error in EmotionController: java.lang.NullPointerException
+30/Sep/2020 15:49:26,993- ERROR MainController: Error in MainController: java.lang.NullPointerException
+30/Sep/2020 16:22:31,483- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 178
+
+175:                                     </a>
+176: 
+177:                                 </c:forEach>
+178:                                 <c:if test="${sessionScope.LIST_ARTICLE.size != 0}">
+179:                                     <nav aria-label="Page navigation example">
+180:                                         <ul class="pagination justify-content-center">
+181:                                             <li class="page-item">
+
+
+Stacktrace:
+30/Sep/2020 16:22:34,136- ERROR AuthenFilter: Error in AuthenFilter: org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 178
+
+175:                                     </a>
+176: 
+177:                                 </c:forEach>
+178:                                 <c:if test="${sessionScope.LIST_ARTICLE.size != 0}">
+179:                                     <nav aria-label="Page navigation example">
+180:                                         <ul class="pagination justify-content-center">
+181:                                             <li class="page-item">
+
+
+Stacktrace:
+30/Sep/2020 17:06:52,776- ERROR MainController: Error in MainController: java.lang.NullPointerException
+07/Oct/2020 10:40:05,973- ERROR MainController: Error in MainController: java.lang.NullPointerException
+09/Oct/2020 11:25:52,366- ERROR SendingEmail: Error in SendingEmail: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+09/Oct/2020 11:31:04,690- ERROR DetailController: Error in DetailController: java.lang.NullPointerException
